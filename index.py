@@ -8,8 +8,8 @@ import inputScript
 classifier = joblib.load('final_models/rf_final.pkl')
 
 #input url
-print("enter url")
-url = input()
+#print("enter url")
+url = "https://www.cuenta-activa.com/aust"
 
 #checking and predicting
 checkprediction = inputScript.main(url)
