@@ -9,7 +9,7 @@ classifier = joblib.load('final_models/rf_final.pkl')
 
 #input url
 #print("enter url")
-url = "https://www.cuenta-activa.com/aust"
+url = "https://antivirus-vk.com"
 
 #checking and predicting
 checkprediction = inputScript.main(url)

@@ -5,4 +5,4 @@ RUN apt-get install python3 python3-pip -y
 COPY . ~/py
 WORKDIR ~/py
 RUN pip3 install -r requirements.txt
-ENTRYPOINT python3 index.py
+CMD python3 index.py
