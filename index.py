@@ -19,6 +19,6 @@ print(prediction)
 x=prediction
 
 if x == 1:
-    print("\n \n This may not be a phishing website !!!!!")
-else:print("\n \n This may  be a phishing website !!!!!!")
+    print("\n \n This may not be a phishing website !!!!!\n \n ")
+else:print("\n \n This may  be a phishing website !!!!!! \n \n ")
  
