@@ -5,4 +5,4 @@ python-whois
 module
 scipy
 numpy
-bs
+bs4
