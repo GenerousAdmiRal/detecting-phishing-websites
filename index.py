@@ -8,10 +8,17 @@ import inputScript
 classifier = joblib.load('final_models/rf_final.pkl')
 
 #input url
-#print("enter url")
+#print ("enter url")
 url = "https://antivirus-vk.com"
 
 #checking and predicting
 checkprediction = inputScript.main(url)
 prediction = classifier.predict(checkprediction)
 print(prediction)
+
+x=prediction
+
+if x == 1:
+    print("\n \n This may not be a phishing website !!!!!")
+else:print("\n \n This may  be a phishing website !!!!!!")
+ 
